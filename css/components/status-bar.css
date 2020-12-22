@@ -1,0 +1,32 @@
+.status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1% 1%;
+  box-sizing: border-box;
+}
+
+.status-bar__column {
+  display: flex;
+  width: 33%;
+}
+.status-bar__column:first-child {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.status-bar__column:nth-child(2) {
+  justify-content: center;
+}
+
+.status-bar__column:last-child {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-bar__column .fa-battery-full,
+.fa-wifi {
+  margin: 0px 5px;
+}
