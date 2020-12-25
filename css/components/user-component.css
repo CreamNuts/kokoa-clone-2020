@@ -1,4 +1,5 @@
 .user-component {
+  margin-bottom: 25px;
   justify-content: space-between;
 }
 
@@ -9,22 +10,27 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--grey);
   font-size: 1.2em;
 }
 
 .user-component__photo {
-  width: 18%;
+  width: 95px;
   border-radius: 35%;
-  margin-right: 5%;
+  margin-right: 18px;
 }
 
 .user-component__photo--xl {
-  width: 20%;
+  width: 110px;
 }
 
 .user-component__photo--sm {
-  width: 16%;
+  width: 80px;
+}
+
+.user-component__text {
+  display: flex;
+  flex-direction: column;
 }
 
 .user-component__title {
@@ -37,6 +43,19 @@
 }
 
 .user-component__subtitle {
-  margin-top: 8%;
-  color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  color: var(--grey);
+}
+
+.user-component__subtitle i {
+  color: tomato;
+}
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.user-component .badge {
+  margin-left: 50%;
 }

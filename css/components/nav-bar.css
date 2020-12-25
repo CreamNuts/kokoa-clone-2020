@@ -4,7 +4,7 @@
   width: 100%;
   background-color: #f9f9fa;
   padding: 4% 0%;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--border);
   box-sizing: border-box;
 }
 
@@ -24,25 +24,8 @@
   color: #2e363e;
 }
 
-.nav__notification,
-.nav__notification-dot {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: bold;
-  background-color: tomato;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
+.nav__notification {
   position: absolute;
   left: 60%;
   top: -30%;
-}
-
-.nav__notification-dot {
-  width: 6px;
-  height: 6px;
-  left: 100%;
-  top: -10%;
 }

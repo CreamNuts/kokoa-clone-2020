@@ -1,0 +1,32 @@
+.more-screen .icon-row {
+  padding-top: 25px;
+}
+
+.more-suggestions {
+  font-size: 22px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 25px;
+}
+
+.more-suggestions .icon-row {
+  padding-top: 0;
+  border: none;
+}
+
+.more-suggestions .icon-row__icon i {
+  display: flex;
+  width: 60px;
+  justify-content: center;
+  font-size: 60px;
+  color: white;
+  background-color: var(--yellow);
+  padding: 15px;
+  border-radius: 15px;
+  box-sizing: content-box;
+}
+
+.more-suggestions .icon-row__icon span {
+  color: var(--grey);
+}
